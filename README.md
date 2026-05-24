@@ -1,3 +1,22 @@
+# 🏦 SecureBank Corp — Enterprise Network Security Lab
+
+
+
+## 🏗️ Network Architecture
+
+    Internet
+        |
+    R1-Core (Edge Router + Firewall)
+        |                    |
+    S1-Core (Internal)   S2-DMZ (DMZ Zone)
+        |                    |
+     8 VLANs           SRV-WebBanking
+        |
+    R2-Branch — WAN via OSPF — S2-Branch
+
+
+
+
 ---
 
 ## 🔒 Security Zones
@@ -133,7 +152,6 @@
 | 5.0 Security Program Management | PCI DSS, GDPR, GLBA compliance controls |
 
 ---
-
 
 ## 👤 Author
 
